@@ -2,7 +2,7 @@
     --primary-color: #3597f3;
     --secondry-color: #7721e9;
     --white: #ffffff;
-    --black: #252525;
+    --black: #020202;
 }
 
 * {
@@ -16,4 +16,43 @@
 body {
     font-family: 'Murecho', sans-serif;
     background-color: var(--black);
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+
+}
+
+.banner-left {
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-right {
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-title {
+    color: var(--white);
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.banner-text {
+    color: var(--white);
+    line-height: 2;
+    margin: 20px 0;
+    text-align: justify;
+
+
 }
